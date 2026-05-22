@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-22T00:00:00.000Z",
+  "title": "Design System: Next.js Basestack",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "surface",
+        "displayName": "Background",
+        "canonical": "oklch(0.145 0 0)",
+        "tonalRamp": [
+          "oklch(0.100 0 0)",
+          "oklch(0.145 0 0)",
+          "oklch(0.190 0 0)",
+          "oklch(0.235 0 0)",
+          "oklch(0.280 0 0)",
+          "oklch(0.325 0 0)",
+          "oklch(0.370 0 0)",
+          "oklch(0.415 0 0)"
+        ]
+      },
+      "card": {
+        "role": "surface",
+        "displayName": "Card",
+        "canonical": "oklch(0.205 0 0)",
+        "tonalRamp": [
+          "oklch(0.145 0 0)",
+          "oklch(0.205 0 0)",
+          "oklch(0.265 0 0)",
+          "oklch(0.325 0 0)",
+          "oklch(0.385 0 0)",
+          "oklch(0.445 0 0)",
+          "oklch(0.505 0 0)",
+          "oklch(0.565 0 0)"
+        ]
+      },
+      "secondary": {
+        "role": "interactive",
+        "displayName": "Secondary Surface",
+        "canonical": "oklch(0.269 0 0)",
+        "tonalRamp": [
+          "oklch(0.200 0 0)",
+          "oklch(0.269 0 0)",
+          "oklch(0.338 0 0)",
+          "oklch(0.407 0 0)",
+          "oklch(0.476 0 0)",
+          "oklch(0.545 0 0)",
+          "oklch(0.614 0 0)",
+          "oklch(0.683 0 0)"
+        ]
+      },
+      "muted": {
+        "role": "interactive",
+        "displayName": "Muted Surface",
+        "canonical": "oklch(0.269 0 0)",
+        "tonalRamp": [
+          "oklch(0.200 0 0)",
+          "oklch(0.269 0 0)",
+          "oklch(0.338 0 0)",
+          "oklch(0.407 0 0)",
+          "oklch(0.476 0 0)",
+          "oklch(0.545 0 0)",
+          "oklch(0.614 0 0)",
+          "oklch(0.683 0 0)"
+        ]
+      },
+      "foreground": {
+        "role": "text",
+        "displayName": "Foreground",
+        "canonical": "oklch(0.985 0 0)",
+        "tonalRamp": [
+          "oklch(0.556 0 0)",
+          "oklch(0.650 0 0)",
+          "oklch(0.708 0 0)",
+          "oklch(0.780 0 0)",
+          "oklch(0.850 0 0)",
+          "oklch(0.922 0 0)",
+          "oklch(0.960 0 0)",
+          "oklch(0.985 0 0)"
+        ]
+      },
+      "primary": {
+        "role": "text",
+        "displayName": "Primary Text",
+        "canonical": "oklch(0.922 0 0)",
+        "tonalRamp": [
+          "oklch(0.500 0 0)",
+          "oklch(0.600 0 0)",
+          "oklch(0.700 0 0)",
+          "oklch(0.780 0 0)",
+          "oklch(0.850 0 0)",
+          "oklch(0.922 0 0)",
+          "oklch(0.950 0 0)",
+          "oklch(0.980 0 0)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "text",
+        "displayName": "Muted Foreground",
+        "canonical": "oklch(0.708 0 0)",
+        "tonalRamp": [
+          "oklch(0.400 0 0)",
+          "oklch(0.500 0 0)",
+          "oklch(0.600 0 0)",
+          "oklch(0.708 0 0)",
+          "oklch(0.780 0 0)",
+          "oklch(0.850 0 0)",
+          "oklch(0.920 0 0)",
+          "oklch(0.960 0 0)"
+        ]
+      },
+      "ring": {
+        "role": "text",
+        "displayName": "Ring",
+        "canonical": "oklch(0.556 0 0)",
+        "tonalRamp": [
+          "oklch(0.350 0 0)",
+          "oklch(0.450 0 0)",
+          "oklch(0.556 0 0)",
+          "oklch(0.650 0 0)",
+          "oklch(0.750 0 0)",
+          "oklch(0.850 0 0)",
+          "oklch(0.920 0 0)",
+          "oklch(0.960 0 0)"
+        ]
+      },
+      "destructive": {
+        "role": "functional",
+        "displayName": "Destructive",
+        "canonical": "oklch(0.704 0.191 22.216)",
+        "tonalRamp": [
+          "oklch(0.300 0.191 22.216)",
+          "oklch(0.400 0.191 22.216)",
+          "oklch(0.500 0.191 22.216)",
+          "oklch(0.600 0.191 22.216)",
+          "oklch(0.704 0.191 22.216)",
+          "oklch(0.800 0.150 22.216)",
+          "oklch(0.880 0.100 22.216)",
+          "oklch(0.940 0.050 22.216)"
+        ]
+      },
+      "sidebar-primary": {
+        "role": "accent",
+        "displayName": "Sidebar Primary",
+        "canonical": "oklch(0.488 0.243 264.376)",
+        "tonalRamp": [
+          "oklch(0.250 0.243 264.376)",
+          "oklch(0.330 0.243 264.376)",
+          "oklch(0.410 0.243 264.376)",
+          "oklch(0.488 0.243 264.376)",
+          "oklch(0.580 0.200 264.376)",
+          "oklch(0.670 0.160 264.376)",
+          "oklch(0.760 0.120 264.376)",
+          "oklch(0.850 0.080 264.376)"
+        ]
+      },
+      "border": {
+        "role": "border",
+        "displayName": "Border",
+        "canonical": "oklch(1 0 0 / 10%)",
+        "tonalRamp": [
+          "oklch(1 0 0 / 5%)",
+          "oklch(1 0 0 / 10%)",
+          "oklch(1 0 0 / 15%)",
+          "oklch(1 0 0 / 20%)",
+          "oklch(1 0 0 / 25%)",
+          "oklch(1 0 0 / 30%)",
+          "oklch(1 0 0 / 40%)",
+          "oklch(1 0 0 / 50%)"
+        ]
+      },
+      "input": {
+        "role": "border",
+        "displayName": "Input Border",
+        "canonical": "oklch(1 0 0 / 15%)",
+        "tonalRamp": [
+          "oklch(1 0 0 / 8%)",
+          "oklch(1 0 0 / 15%)",
+          "oklch(1 0 0 / 22%)",
+          "oklch(1 0 0 / 30%)",
+          "oklch(1 0 0 / 38%)",
+          "oklch(1 0 0 / 45%)",
+          "oklch(1 0 0 / 55%)",
+          "oklch(1 0 0 / 65%)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page titles and hero text. One per page maximum." },
+      "headline": { "displayName": "Headline", "purpose": "Section headers and card titles. The workhorse heading." },
+      "title": { "displayName": "Title", "purpose": "Subsection headers and list item titles." },
+      "body": { "displayName": "Body", "purpose": "Running text, descriptions, form labels. Max 65ch." },
+      "label": { "displayName": "Label", "purpose": "Buttons, badges, navigation, metadata. Compact and functional." },
+      "mono": { "displayName": "Mono", "purpose": "Code blocks, technical labels, inline code." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.25, 0.1, 0.25, 1)", "purpose": "Default easing for state transitions." },
+      { "name": "ease-out-quart", "value": "cubic-bezier(0.25, 1, 0.5, 1)", "purpose": "Entrance animations and dismissals." },
+      { "name": "duration-fast", "value": "100ms", "purpose": "Micro-interactions: hover, focus ring." },
+      { "name": "duration-normal", "value": "200ms", "purpose": "State transitions: expand, collapse, fade." },
+      { "name": "duration-slow", "value": "300ms", "purpose": "Page-level transitions, overlays." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "2xl", "value": "1536px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "High-emphasis action. Near-white fill on dark surfaces.",
+      "html": "<button class=\"ds-btn-primary\">Get Started</button>",
+      "css": ".ds-btn-primary { background: oklch(0.922 0 0); color: oklch(0.205 0 0); padding: 8px 16px; border-radius: 6px; font-family: Inter, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; border: none; cursor: pointer; transition: background 100ms cubic-bezier(0.25, 0.1, 0.25, 1); } .ds-btn-primary:hover { background: oklch(0.880 0 0); } .ds-btn-primary:focus-visible { outline: 2px solid oklch(0.556 0 0); outline-offset: 2px; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Supplementary action. Muted surface fill.",
+      "html": "<button class=\"ds-btn-secondary\">Cancel</button>",
+      "css": ".ds-btn-secondary { background: oklch(0.269 0 0); color: oklch(0.985 0 0); padding: 8px 16px; border-radius: 6px; font-family: Inter, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; border: none; cursor: pointer; transition: background 100ms cubic-bezier(0.25, 0.1, 0.25, 1); } .ds-btn-secondary:hover { background: oklch(0.320 0 0); } .ds-btn-secondary:focus-visible { outline: 2px solid oklch(0.556 0 0); outline-offset: 2px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Tertiary action. Transparent background.",
+      "html": "<button class=\"ds-btn-ghost\">Learn more</button>",
+      "css": ".ds-btn-ghost { background: transparent; color: oklch(0.985 0 0); padding: 8px 16px; border-radius: 6px; font-family: Inter, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; border: none; cursor: pointer; transition: background 100ms cubic-bezier(0.25, 0.1, 0.25, 1); } .ds-btn-ghost:hover { background: oklch(0.269 0 0); } .ds-btn-ghost:focus-visible { outline: 2px solid oklch(0.556 0 0); outline-offset: 2px; }"
+    },
+    {
+      "name": "Destructive Button",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Danger action. Red fill, reserved for destructive confirmations only.",
+      "html": "<button class=\"ds-btn-destructive\">Delete</button>",
+      "css": ".ds-btn-destructive { background: oklch(0.704 0.191 22.216); color: oklch(1 0 0); padding: 8px 16px; border-radius: 6px; font-family: Inter, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; text-transform: uppercase; border: none; cursor: pointer; transition: background 100ms cubic-bezier(0.25, 0.1, 0.25, 1); } .ds-btn-destructive:hover { background: oklch(0.620 0.191 22.216); } .ds-btn-destructive:focus-visible { outline: 2px solid oklch(0.556 0 0); outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Standard text field. Transparent background with faint border.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"Enter value...\" />",
+      "css": ".ds-input { background: transparent; color: oklch(0.985 0 0); padding: 8px 12px; border-radius: 6px; border: 1px solid oklch(1 0 0 / 15%); font-family: Inter, system-ui, sans-serif; font-size: 0.875rem; font-weight: 400; line-height: 1.6; width: 100%; box-sizing: border-box; transition: border-color 100ms cubic-bezier(0.25, 0.1, 0.25, 1); } .ds-input::placeholder { color: oklch(0.708 0 0); } .ds-input:focus { outline: none; border-color: oklch(0.556 0 0); box-shadow: 0 0 0 2px oklch(0.556 0 0 / 20%); }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Elevated surface container. Tonal layering for depth.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-header\"><div class=\"ds-card-title\">Card Title</div></div><div class=\"ds-card-content\">Card content goes here.</div></div>",
+      "css": ".ds-card { background: oklch(0.205 0 0); border-radius: 8px; padding: 24px; border: 1px solid oklch(1 0 0 / 10%); } .ds-card-header { margin-bottom: 16px; } .ds-card-title { font-family: Inter, system-ui, sans-serif; font-size: 1.125rem; font-weight: 500; line-height: 1.4; color: oklch(0.985 0 0); } .ds-card-content { font-family: Inter, system-ui, sans-serif; font-size: 0.875rem; font-weight: 400; line-height: 1.6; color: oklch(0.708 0 0); }"
+    },
+    {
+      "name": "Navigation Item",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Sidebar or top-nav item. Label-scale, ghost treatment.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item\" href=\"#\">Dashboard</a><a class=\"ds-nav-item ds-nav-active\" href=\"#\">Posts</a></nav>",
+      "css": ".ds-nav { display: flex; flex-direction: column; gap: 2px; } .ds-nav-item { display: block; padding: 8px 12px; border-radius: 6px; font-family: Inter, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; color: oklch(0.708 0 0); text-decoration: none; transition: background 100ms cubic-bezier(0.25, 0.1, 0.25, 1), color 100ms cubic-bezier(0.25, 0.1, 0.25, 1); } .ds-nav-item:hover { background: oklch(0.269 0 0); color: oklch(0.985 0 0); } .ds-nav-active { background: oklch(0.269 0 0); color: oklch(0.985 0 0); }"
+    },
+    {
+      "name": "Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Status or category indicator. Compact label-scale.",
+      "html": "<span class=\"ds-badge\">Active</span>",
+      "css": ".ds-badge { display: inline-flex; align-items: center; padding: 2px 8px; border-radius: 9999px; background: oklch(0.269 0 0); color: oklch(0.708 0 0); font-family: Inter, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; letter-spacing: 0.02em; line-height: 1.4; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Precision Workshop",
+    "overview": "A design system built on neutral density and tonal layering. Every surface earns its elevation through lightness shifts, not shadows. The palette is intentionally achromatic: near-black backgrounds, mid-tone surfaces, and near-white text, with color reserved strictly for destructive states and a single sidebar accent.\n\nThis system rejects decoration. No gradients on text, no glassmorphism, no bouncing transitions. The aesthetic is Linear-adjacent: tight spacing, confident weight contrast, and information density that rewards scanning.",
+    "keyCharacteristics": [
+      "Fully achromatic palette (chroma 0 across all neutrals)",
+      "Tonal layering for depth instead of box-shadow",
+      "Tight component density with generous content spacing",
+      "Weight-driven hierarchy over size-driven hierarchy",
+      "Dark-first with light theme as a parallel mode"
+    ],
+    "rules": [
+      { "name": "The Achromatic Rule", "body": "All neutrals must sit on the zero-chroma axis. Any gray with visible hue violates the system.", "section": "colors" },
+      { "name": "The Tonal Layering Rule", "body": "Depth is conveyed through lightness steps between surfaces, never through box-shadow.", "section": "colors" },
+      { "name": "The Weight Contrast Rule", "body": "Hierarchy is driven by font-weight contrast (>=600 vs 400), not by size alone.", "section": "typography" },
+      { "name": "The Single Display Rule", "body": "Each page gets exactly one display-scale element. Two display elements on the same screen means the hierarchy has collapsed.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Every surface starts without shadow. Shadows appear only as transient state feedback, never as a permanent resting treatment.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use tonal layering for depth. Background → Card → Secondary is the standard three-tier hierarchy.",
+      "Do keep all neutrals on the achromatic axis. Zero chroma, zero hue.",
+      "Do use font-weight contrast (>=600 vs 400) as the primary hierarchy mechanism.",
+      "Do keep button padding compact (8px 16px). This is a dense interface.",
+      "Do use label-scale typography (12px, medium weight) for all interactive elements.",
+      "Do respect the flat-by-default rule. Shadows are for transient states only.",
+      "Do use the single display rule. One display-scale heading per page, maximum."
+    ],
+    "donts": [
+      "Don't use box-shadow as a resting treatment on any component. Use lighter backgrounds for elevation.",
+      "Don't add hue to neutrals. No blue-grays, no warm-grays, no tinted backgrounds.",
+      "Don't use gradient text. One solid color per element.",
+      "Don't apply glassmorphism or backdrop-blur as decoration.",
+      "Don't create identical card grids with icon + heading + text repeated endlessly.",
+      "Don't use modal dialogs as a first interaction pattern. Exhaust inline alternatives first.",
+      "Don't animate layout properties (width, height, padding). Animate opacity and transform only.",
+      "Don't exceed 10% chroma on any neutral. The system is achromatic by design.",
+      "Don't use bounce or elastic easing curves. Ease-out with exponential curves only.",
+      "Don't restate headings in body copy. Every word earns its place."
+    ]
+  }
+}
