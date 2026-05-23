@@ -1,34 +1,120 @@
-# Product
+# PRODUCT.md
 
-## Register
+## Product Vision
 
-product
+Next.js Basestack is a **starter template / foundation** for building modern web applications. It's not a product itself, but enables rapid development of products.
 
-## Users
+## Target Users
 
-Developers who fork this template to build SaaS applications. They evaluate the template quickly, scan the code, and decide whether to build on it. Their context: comparing multiple starter kits, looking for clean defaults they can extend without fighting the design system.
+- **Solo developers** building side projects or MVPs
+- **Small teams** needing a solid starting point
+- **Anyone** wanting to learn modern Next.js patterns
 
-## Product Purpose
+## Key Features (Template Capabilities)
 
-A production-ready Next.js SaaS starter. Developers clone it, find sensible defaults for auth, database, forms, and state management, then build their product on top. Success means the template gets out of the way: clean enough to customize, opinionated enough to ship fast.
+### Authentication
+- Email/password sign-up and sign-in
+- Session management (7-day expiry)
+- OAuth ready (Google, GitHub configured but disabled)
+- Protected routes via middleware
+- Client-side session hook (`useSession`)
 
-## Brand Personality
+### Posts CRUD
+- Create, read, update, delete posts
+- Draft/published status
+- Tagging system
+- Search and filter
+- Pagination
+- Ownership validation
 
-Developer-friendly and modern. Think Linear: precise, confident, no wasted motion. The interface should feel like a tool built by engineers who care about craft, not a marketing page dressed up as a product.
+### AI Chat
+- Basic chat interface
+- Vercel AI SDK integration
+- Streaming responses
+- Google Gemini model (configurable)
 
-## Anti-references
+### Dashboard
+- Post statistics (total, published, drafts)
+- Recent posts list
+- Quick actions
 
-- Generic Bootstrap look: default spacing, stock components, no visual hierarchy, everything feels like a tutorial project
-- AI slop: gradient text, glassmorphism everywhere, identical card grids, hero-metric templates, bouncing animations, overuse of purple-to-blue gradients
+## User Flows
 
-## Design Principles
+### Authentication Flow
 
-1. **Default to useful, not decorative**: Every element should have a clear purpose. If it doesn't help the developer understand or act, remove it.
-2. **Ship-quality from day one**: The template should look production-ready, not like a scaffold. First impression determines whether someone forks it.
-3. **Linear-inspired precision**: Tight spacing, confident typography, restrained color. Let information density and hierarchy do the work.
-4. **Dark mode first, light mode capable**: Developers spend hours in dark interfaces. Optimize for the dark experience, ensure light mode works cleanly.
-5. **No hand-holding theater**: Skip "Getting Started" hero sections that restate the README. Show the product, not the pitch.
+```
+Landing Page → Sign Up → Dashboard
+                ↓
+           Sign In → Dashboard
+                ↓
+           Forgot Password → Reset → Sign In
+```
 
-## Accessibility & Inclusion
+### Content Management Flow
 
-WCAG AA compliance. Keyboard navigable. Reduced motion respected. Sufficient contrast in both dark and light themes.
+```
+Dashboard → Posts → Create Post → Fill Form → Save (draft/published)
+                ↓
+           Posts → Edit Post → Modify → Save
+                ↓
+           Posts → Delete Post → Confirm → Remove
+```
+
+### Chat Flow
+
+```
+Dashboard → Chat → Type Message → Send → View Response → Continue
+```
+
+## Information Architecture
+
+```
+/ (Landing)
+├── /sign-in
+├── /sign-up
+├── /dashboard (protected)
+├── /posts (protected)
+├── /chat (protected)
+├── /profile (planned)
+└── /settings (planned)
+```
+
+## Current Limitations
+
+- **No file uploads** — Posts are text-only
+- **No email verification** — Email verified flag exists but not enforced
+- **No password reset** — Schema exists but flow not implemented
+- **No profile editing** — Profile page not built
+- **No settings page** — Settings page not built
+- **No real-time updates** — Polling-based refresh
+- **No search indexing** — Basic LIKE search only
+- **No rate limiting** — API endpoints unprotected
+- **No analytics** — No tracking or metrics
+
+## Future Considerations
+
+- [ ] Email verification flow
+- [ ] Password reset flow
+- [ ] Profile editing page
+- [ ] Settings page
+- [ ] File upload support
+- [ ] Rich text editor for posts
+- [ ] Post comments
+- [ ] User following
+- [ ] Notifications
+- [ ] Admin dashboard
+- [ ] API rate limiting
+- [ ] Logging infrastructure
+- [ ] Error tracking (Sentry)
+- [ ] Analytics (PostHog, Mixpanel)
+- [ ] E2E tests
+- [ ] CI/CD pipeline
+- [ ] Docker deployment
+- [ ] PostgreSQL adapter option
+
+## Success Metrics (For Template Users)
+
+- **Time to first deploy**: < 10 minutes
+- **Developer satisfaction**: Easy to understand and extend
+- **Code quality**: Type-safe, well-organized, maintainable
+- **Performance**: Lighthouse score > 90
