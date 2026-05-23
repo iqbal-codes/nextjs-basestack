@@ -1,0 +1,11 @@
+import { SignInForm } from "@/features/auth/components/sign-in-form";
+
+export default async function SignInPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ callbackUrl?: string }>;
+}) {
+  const { callbackUrl } = await searchParams;
+
+  return <SignInForm callbackUrl={callbackUrl ?? null} />;
+}
