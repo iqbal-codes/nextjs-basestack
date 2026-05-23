@@ -1,0 +1,243 @@
+{
+  "Errors": {
+    "generic": "Something went wrong. Please try again.",
+    "credentialNotFound": "No account found with this email address.",
+    "invalidCredentials": "Invalid email or password.",
+    "invalidPassword": "Incorrect password. Please try again.",
+    "emailTaken": "An account with this email already exists.",
+    "weakPassword": "Password is too weak. Please choose a stronger password.",
+    "emailNotVerified": "Please verify your email address before signing in.",
+    "rateLimited": "Too many attempts. Please try again later.",
+    "sessionExpired": "Your session has expired. Please sign in again.",
+    "unauthorized": "You must be signed in to perform this action.",
+    "forbidden": "You don't have permission to perform this action.",
+    "networkError": "A network error occurred. Check your connection and try again.",
+    "constraintViolation": "A record with that information already exists.",
+    "foreignKeyViolation": "This record is referenced by other data and cannot be deleted.",
+    "connectionError": "Unable to connect to the database. Please try again.",
+    "notFound": "The requested resource was not found."
+  },
+  "Metadata": {
+    "title": "Next.js Basestack",
+    "description": "A production-ready Next.js application with TypeScript, shadcn/ui, TanStack Query, Drizzle ORM, and Better Auth"
+  },
+  "Home": {
+    "title": "Next.js Basestack",
+    "description": "A production-ready foundation with the best tools for modern web development",
+    "getStarted": "Get Started",
+    "github": "GitHub",
+    "cards": {
+      "next": {
+        "title": "⚡ Next.js 16",
+        "description": "React framework with App Router, Server Components, and Server Actions",
+        "items": ["React Server Components", "Server Actions for mutations", "Streaming & Suspense"]
+      },
+      "ui": {
+        "title": "🎨 shadcn/ui",
+        "description": "Beautiful, accessible components built with Radix UI and Tailwind CSS",
+        "items": [
+          "Form components with validation",
+          "Dialog, Sheet, Dropdown Menu",
+          "Fully customizable"
+        ]
+      },
+      "query": {
+        "title": "🔄 TanStack Query",
+        "description": "Powerful data synchronization for server state management",
+        "items": ["Automatic caching", "Background refetching", "Optimistic updates"]
+      },
+      "forms": {
+        "title": "📝 React Hook Form + Zod",
+        "description": "Performant forms with schema-based validation",
+        "items": ["Minimal re-renders", "Type-safe validation", "Easy integration"]
+      },
+      "auth": {
+        "title": "🔐 Better Auth",
+        "description": "Secure authentication with sessions and multiple providers",
+        "items": ["Email & Password", "OAuth providers", "Session management"]
+      },
+      "database": {
+        "title": "🗄️ Drizzle ORM + Supabase",
+        "description": "Type-safe database operations with PostgreSQL",
+        "items": ["SQL-like syntax", "Full type safety", "Serverless ready"]
+      },
+      "state": {
+        "title": "🎯 Zustand",
+        "description": "Simple, scalable global state management",
+        "items": ["Minimal boilerplate", "Persistence middleware", "DevTools support"]
+      },
+      "url": {
+        "title": "🔗 nuqs",
+        "description": "Type-safe URL search params state management",
+        "items": ["Filter synchronization", "Shareable URLs", "Server-side parsing"]
+      },
+      "typescript": {
+        "title": "📘 TypeScript",
+        "description": "End-to-end type safety across the entire codebase",
+        "items": ["Strict mode enabled", "Inferred types", "Better DX"]
+      }
+    }
+  },
+  "Auth": {
+    "metadata": {
+      "title": "Authentication",
+      "description": "Sign in or create an account"
+    },
+    "signIn": {
+      "title": "Sign in",
+      "description": "Enter your email and password to access your account",
+      "submit": "Sign in",
+      "submitting": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "signUpLink": "Sign up"
+    },
+    "signUp": {
+      "title": "Create an account",
+      "description": "Enter your details to get started",
+      "submit": "Create account",
+      "submitting": "Creating account...",
+      "hasAccount": "Already have an account?",
+      "signInLink": "Sign in"
+    },
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password"
+    },
+    "placeholders": {
+      "name": "John Doe",
+      "email": "name@example.com",
+      "password": "••••••••"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "credentialNotFound": "No account found with this email address.",
+      "invalidPassword": "Incorrect password. Please try again.",
+      "emailTaken": "An account with this email already exists.",
+      "weakPassword": "Password is too weak. Please choose a stronger password.",
+      "emailNotVerified": "Please verify your email address before signing in.",
+      "rateLimited": "Too many attempts. Please try again later.",
+      "sessionExpired": "Your session has expired. Please sign in again.",
+      "unauthorized": "You must be signed in to perform this action.",
+      "forbidden": "You don't have permission to perform this action.",
+      "networkError": "A network error occurred. Check your connection and try again.",
+      "constraintViolation": "A record with that information already exists."
+    },
+    "validation": {
+      "invalidEmail": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "nameRequired": "Name is required",
+      "nameMax": "Name must be less than 100 characters",
+      "passwordMin": "Password must be at least 8 characters",
+      "passwordMax": "Password must be less than 100 characters",
+      "passwordsMatch": "Passwords don't match"
+    },
+    "signOut": {
+      "label": "Sign out",
+      "submitting": "Signing out..."
+    }
+  },
+  "Navigation": {
+    "brand": "Next.js Basestack",
+    "dashboard": "Dashboard",
+    "posts": "Posts",
+    "profile": "Profile",
+    "settings": "Settings",
+    "avatarAlt": "Avatar"
+  },
+  "Dashboard": {
+    "metadata": {
+      "title": "Dashboard",
+      "description": "Manage your content"
+    },
+    "title": "Dashboard",
+    "welcome": "Welcome back, {name}!",
+    "stats": {
+      "totalPosts": "Total Posts",
+      "published": "Published",
+      "drafts": "Drafts"
+    },
+    "recentPosts": {
+      "title": "Recent Posts",
+      "description": "Your most recent posts",
+      "viewAll": "View all",
+      "empty": "No posts yet. Create your first post!"
+    },
+    "status": {
+      "published": "Published",
+      "draft": "Draft"
+    }
+  },
+  "Posts": {
+    "metadata": {
+      "title": "Posts",
+      "description": "Manage your content and blog posts"
+    },
+    "title": "Posts",
+    "description": "Manage your content and blog posts",
+    "newPost": "New Post",
+    "loadingFilters": "Loading filters...",
+    "loadingPosts": "Loading posts...",
+    "filters": {
+      "searchPlaceholder": "Search posts...",
+      "all": "All",
+      "published": "Published",
+      "drafts": "Drafts",
+      "label": "Filters:",
+      "search": "Search: {query}"
+    },
+    "dialog": {
+      "title": "Create New Post",
+      "description": "Add a new post to your collection. Fill in the details below."
+    },
+    "form": {
+      "title": "Title",
+      "titlePlaceholder": "Enter post title",
+      "content": "Content",
+      "contentPlaceholder": "Write your post content...",
+      "tags": "Tags (comma-separated)",
+      "tagsPlaceholder": "e.g., react, nextjs, typescript",
+      "publishImmediately": "Publish immediately",
+      "save": "Save Post",
+      "saving": "Saving..."
+    },
+    "validation": {
+      "titleRequired": "Title is required",
+      "titleMax": "Title must be less than 255 characters",
+      "postIdRequired": "Post ID is required"
+    },
+    "list": {
+      "loadError": "Failed to load posts. Please try again.",
+      "empty": "No posts found. Create your first post!",
+      "title": "All Posts",
+      "total": "{count, plural, =0 {No posts} one {# total post} other {# total posts}}",
+      "columns": {
+        "title": "Title",
+        "status": "Status",
+        "tags": "Tags",
+        "created": "Created"
+      },
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "confirmDelete": "Are you sure you want to delete this post?",
+      "pageOf": "Page {page} of {totalPages}",
+      "previous": "Previous",
+      "next": "Next"
+    }
+  },
+  "Status": {
+    "notFound": {
+      "title": "404",
+      "description": "Page not found",
+      "home": "Go back home"
+    },
+    "error": {
+      "title": "Something went wrong!",
+      "description": "An unexpected error occurred. Please try again.",
+      "retry": "Try again"
+    }
+  }
+}

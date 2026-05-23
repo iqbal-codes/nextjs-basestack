@@ -1,0 +1,243 @@
+{
+  "Errors": {
+    "generic": "Terjadi kesalahan. Silakan coba lagi.",
+    "credentialNotFound": "Tidak ada akun dengan alamat email ini.",
+    "invalidCredentials": "Email atau kata sandi tidak valid.",
+    "invalidPassword": "Kata sandi salah. Silakan coba lagi.",
+    "emailTaken": "Akun dengan email ini sudah ada.",
+    "weakPassword": "Kata sandi terlalu lemah. Pilih kata sandi yang lebih kuat.",
+    "emailNotVerified": "Silakan verifikasi alamat email Anda sebelum masuk.",
+    "rateLimited": "Terlalu banyak percobaan. Silakan coba lagi nanti.",
+    "sessionExpired": "Sesi Anda telah berakhir. Silakan masuk kembali.",
+    "unauthorized": "Anda harus masuk untuk melakukan tindakan ini.",
+    "forbidden": "Anda tidak memiliki izin untuk melakukan tindakan ini.",
+    "networkError": "Terjadi kesalahan jaringan. Periksa koneksi Anda dan coba lagi.",
+    "constraintViolation": "Data dengan informasi tersebut sudah ada.",
+    "foreignKeyViolation": "Data ini dirujuk oleh data lain dan tidak dapat dihapus.",
+    "connectionError": "Tidak dapat terhubung ke database. Silakan coba lagi.",
+    "notFound": "Sumber daya yang diminta tidak ditemukan."
+  },
+  "Metadata": {
+    "title": "Next.js Basestack",
+    "description": "Aplikasi Next.js siap produksi dengan TypeScript, shadcn/ui, TanStack Query, Drizzle ORM, dan Better Auth"
+  },
+  "Home": {
+    "title": "Next.js Basestack",
+    "description": "Fondasi siap produksi dengan perkakas terbaik untuk pengembangan web modern",
+    "getStarted": "Mulai",
+    "github": "GitHub",
+    "cards": {
+      "next": {
+        "title": "⚡ Next.js 16",
+        "description": "Framework React dengan App Router, Server Components, dan Server Actions",
+        "items": ["React Server Components", "Server Actions untuk mutasi", "Streaming & Suspense"]
+      },
+      "ui": {
+        "title": "🎨 shadcn/ui",
+        "description": "Komponen indah dan aksesibel yang dibangun dengan Radix UI dan Tailwind CSS",
+        "items": [
+          "Komponen formulir dengan validasi",
+          "Dialog, Sheet, Dropdown Menu",
+          "Sepenuhnya dapat disesuaikan"
+        ]
+      },
+      "query": {
+        "title": "🔄 TanStack Query",
+        "description": "Sinkronisasi data yang kuat untuk manajemen state server",
+        "items": ["Caching otomatis", "Refetch di latar belakang", "Optimistic updates"]
+      },
+      "forms": {
+        "title": "📝 React Hook Form + Zod",
+        "description": "Formulir performan dengan validasi berbasis skema",
+        "items": ["Render ulang minimal", "Validasi type-safe", "Integrasi mudah"]
+      },
+      "auth": {
+        "title": "🔐 Better Auth",
+        "description": "Autentikasi aman dengan sesi dan beberapa provider",
+        "items": ["Email & Password", "Provider OAuth", "Manajemen sesi"]
+      },
+      "database": {
+        "title": "🗄️ Drizzle ORM + Supabase",
+        "description": "Operasi database type-safe dengan PostgreSQL",
+        "items": ["Sintaks seperti SQL", "Type safety penuh", "Siap serverless"]
+      },
+      "state": {
+        "title": "🎯 Zustand",
+        "description": "Manajemen global state yang sederhana dan skalabel",
+        "items": ["Boilerplate minimal", "Middleware persistensi", "Dukungan DevTools"]
+      },
+      "url": {
+        "title": "🔗 nuqs",
+        "description": "Manajemen state URL search params yang type-safe",
+        "items": ["Sinkronisasi filter", "URL dapat dibagikan", "Parsing sisi server"]
+      },
+      "typescript": {
+        "title": "📘 TypeScript",
+        "description": "Type safety end-to-end di seluruh codebase",
+        "items": ["Strict mode aktif", "Tipe terinferensi", "DX lebih baik"]
+      }
+    }
+  },
+  "Auth": {
+    "metadata": {
+      "title": "Autentikasi",
+      "description": "Masuk atau buat akun"
+    },
+    "signIn": {
+      "title": "Masuk",
+      "description": "Masukkan email dan kata sandi untuk mengakses akun Anda",
+      "submit": "Masuk",
+      "submitting": "Sedang masuk...",
+      "noAccount": "Belum punya akun?",
+      "signUpLink": "Daftar"
+    },
+    "signUp": {
+      "title": "Buat akun",
+      "description": "Masukkan detail Anda untuk memulai",
+      "submit": "Buat akun",
+      "submitting": "Membuat akun...",
+      "hasAccount": "Sudah punya akun?",
+      "signInLink": "Masuk"
+    },
+    "fields": {
+      "name": "Nama",
+      "email": "Email",
+      "password": "Kata sandi",
+      "confirmPassword": "Konfirmasi Kata Sandi"
+    },
+    "placeholders": {
+      "name": "John Doe",
+      "email": "name@example.com",
+      "password": "••••••••"
+    },
+    "errors": {
+      "generic": "Terjadi kesalahan. Silakan coba lagi.",
+      "credentialNotFound": "Tidak ada akun dengan alamat email ini.",
+      "invalidPassword": "Kata sandi salah. Silakan coba lagi.",
+      "emailTaken": "Akun dengan email ini sudah ada.",
+      "weakPassword": "Kata sandi terlalu lemah. Pilih kata sandi yang lebih kuat.",
+      "emailNotVerified": "Silakan verifikasi alamat email Anda sebelum masuk.",
+      "rateLimited": "Terlalu banyak percobaan. Silakan coba lagi nanti.",
+      "sessionExpired": "Sesi Anda telah berakhir. Silakan masuk kembali.",
+      "unauthorized": "Anda harus masuk untuk melakukan tindakan ini.",
+      "forbidden": "Anda tidak memiliki izin untuk melakukan tindakan ini.",
+      "networkError": "Terjadi kesalahan jaringan. Periksa koneksi Anda dan coba lagi.",
+      "constraintViolation": "Data dengan informasi tersebut sudah ada."
+    },
+    "validation": {
+      "invalidEmail": "Masukkan alamat email yang valid",
+      "passwordRequired": "Kata sandi wajib diisi",
+      "nameRequired": "Nama wajib diisi",
+      "nameMax": "Nama harus kurang dari 100 karakter",
+      "passwordMin": "Kata sandi minimal 8 karakter",
+      "passwordMax": "Kata sandi harus kurang dari 100 karakter",
+      "passwordsMatch": "Kata sandi tidak cocok"
+    },
+    "signOut": {
+      "label": "Keluar",
+      "submitting": "Sedang keluar..."
+    }
+  },
+  "Navigation": {
+    "brand": "Next.js Basestack",
+    "dashboard": "Dashboard",
+    "posts": "Posts",
+    "profile": "Profil",
+    "settings": "Pengaturan",
+    "avatarAlt": "Avatar"
+  },
+  "Dashboard": {
+    "metadata": {
+      "title": "Dashboard",
+      "description": "Kelola konten Anda"
+    },
+    "title": "Dashboard",
+    "welcome": "Selamat datang kembali, {name}!",
+    "stats": {
+      "totalPosts": "Total Posts",
+      "published": "Dipublikasikan",
+      "drafts": "Draf"
+    },
+    "recentPosts": {
+      "title": "Posts Terbaru",
+      "description": "Posts terbaru Anda",
+      "viewAll": "Lihat semua",
+      "empty": "Belum ada post. Buat post pertama Anda!"
+    },
+    "status": {
+      "published": "Dipublikasikan",
+      "draft": "Draf"
+    }
+  },
+  "Posts": {
+    "metadata": {
+      "title": "Posts",
+      "description": "Kelola konten dan blog post Anda"
+    },
+    "title": "Posts",
+    "description": "Kelola konten dan blog post Anda",
+    "newPost": "Post Baru",
+    "loadingFilters": "Memuat filter...",
+    "loadingPosts": "Memuat posts...",
+    "filters": {
+      "searchPlaceholder": "Cari posts...",
+      "all": "Semua",
+      "published": "Dipublikasikan",
+      "drafts": "Draf",
+      "label": "Filter:",
+      "search": "Pencarian: {query}"
+    },
+    "dialog": {
+      "title": "Buat Post Baru",
+      "description": "Tambahkan post baru ke koleksi Anda. Isi detail di bawah ini."
+    },
+    "form": {
+      "title": "Judul",
+      "titlePlaceholder": "Masukkan judul post",
+      "content": "Konten",
+      "contentPlaceholder": "Tulis konten post Anda...",
+      "tags": "Tag (dipisahkan koma)",
+      "tagsPlaceholder": "mis., react, nextjs, typescript",
+      "publishImmediately": "Publikasikan sekarang",
+      "save": "Simpan Post",
+      "saving": "Menyimpan..."
+    },
+    "validation": {
+      "titleRequired": "Judul wajib diisi",
+      "titleMax": "Judul harus kurang dari 255 karakter",
+      "postIdRequired": "ID post wajib diisi"
+    },
+    "list": {
+      "loadError": "Gagal memuat posts. Silakan coba lagi.",
+      "empty": "Tidak ada post ditemukan. Buat post pertama Anda!",
+      "title": "Semua Posts",
+      "total": "{count, plural, =0 {Tidak ada post} one {# total post} other {# total posts}}",
+      "columns": {
+        "title": "Judul",
+        "status": "Status",
+        "tags": "Tag",
+        "created": "Dibuat"
+      },
+      "view": "Lihat",
+      "edit": "Edit",
+      "delete": "Hapus",
+      "deleting": "Menghapus...",
+      "confirmDelete": "Anda yakin ingin menghapus post ini?",
+      "pageOf": "Halaman {page} dari {totalPages}",
+      "previous": "Sebelumnya",
+      "next": "Berikutnya"
+    }
+  },
+  "Status": {
+    "notFound": {
+      "title": "404",
+      "description": "Halaman tidak ditemukan",
+      "home": "Kembali ke beranda"
+    },
+    "error": {
+      "title": "Terjadi kesalahan!",
+      "description": "Terjadi kesalahan tak terduga. Silakan coba lagi.",
+      "retry": "Coba lagi"
+    }
+  }
+}
